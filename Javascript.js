@@ -3,7 +3,7 @@ event1.addEventListener('click', activate, false);
 
 function activate(){
     var text = document.getElementById("input1").value;
-    document.getElementById("demo").innerHTML = text.indexOf("string");
+    document.getElementById("demo").innerHTML = text.lastIndexOf("string");
    
     
    
